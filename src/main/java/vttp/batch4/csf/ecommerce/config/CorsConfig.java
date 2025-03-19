@@ -10,7 +10,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @EnableWebMvc
 public class CorsConfig implements WebMvcConfigurer {
 
-    String cors = "https://mockcsfvercel.vercel.app";
+    String cors = "https://mock-eta-indol.vercel.app";
 
     @Bean
     public WebMvcConfigurer corsConfigurator() {
